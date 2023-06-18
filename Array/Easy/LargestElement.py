@@ -27,4 +27,6 @@ if __name__ == '__main__':
     print(largestelement([8,10,5,7,9]))
     print(largest([8,10,5,6,2]))
     print(largest1([2, 5, 1, 3, 0]))
-    print(largest2([8, 10, 5, 7, 9]))
+    print(largest1([8, 10, 5, 7, 9]))
+    print(largest1([81,110,15, 7, 9]))
+
