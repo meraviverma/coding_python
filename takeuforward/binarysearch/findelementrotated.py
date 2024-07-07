@@ -15,6 +15,7 @@ class findelemntrotate:
         return -1
     
     #O(log(n))
+    #without duplicate
     def findelementbs(self,nums:List[int],elem:int)->int:
         low=0
         high=len(nums)-1
@@ -36,13 +37,41 @@ class findelemntrotate:
                 else:
                     high = mid -1
         return -1
+    #O(log(n))
+    #with duplicate
+    def findelementbs_dup(self,nums:List[int],elem:int)->int:
+        low=0
+        high=len(nums)-1
+
+        while(low <= high):
+            mid=(low+high)//2
+            if(nums[mid] == elem):
+                return True
+
+            if(nums[low] == nums[mid] and nums[mid] == nums[high]):
+                low+=1
+                high-=1
+                continue
+            #If mid element is greater than low then it means left part is sorted
+            if(nums[low] <= nums[mid]):
+                if(nums[low] <= elem and elem <= nums[mid]):
+                    high=mid - 1
+                else:
+                    low = mid+1
+            else:
+                if(nums[mid] <= elem and elem <= nums[high]):
+                    low=mid +1
+                else:
+                    high = mid -1
+        return False
 
 
 if __name__=="__main__":
     a=[8,9,10,1,2,3,4,6,7]
-    target=1
+    b=[3,1,2,3,3,3,3]
+    target=9
     abc=findelemntrotate()
-    index=abc.findelementbs(a,target)
+    index=abc.findelementbs_dup(b,target)
     if index == -1:
         print("Element Not FOund")
     else:
