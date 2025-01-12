@@ -24,6 +24,11 @@ class Solution:
                     return [i,j]
         return[]
 
+    """
+    Time & Space Complexity for sorting
+    Time complexity: O(nlogn)
+    Space complexity: O(n)
+    """
     def twosumsorting(self,nums:List[int],target:int)->List[int]:
         A=[]
         for i,num in enumerate(nums):
@@ -43,6 +48,11 @@ class Solution:
         return []
 
 
+    """
+    Time & Space Complexity two sum
+    Time complexity: O(n)
+    Space complexity: O(n)
+    """
     def twoSumhashmap(self, nums: List[int], target: int) -> List[int]:
         indices = {}  # val -> index
 
@@ -54,6 +64,22 @@ class Solution:
             if diff in indices and indices[diff] != i:
                 return [i, indices[diff]]
 
+    """
+    Time & Space Complexity optimal
+    Time complexity: O(n)
+    Space complexity: O(n)
+    """
+    def towsumhashmapoptimal(selfself,nums:List[int],target:int)->List[int]:
+        indices={}
+
+        for i,n in enumerate(nums):
+            diff=target-n
+            if diff in indices:
+                return [indices[diff],i]
+            else:
+                indices[n]=i
+        return[]
+
 
 if __name__=="__main__":
     myobj=Solution()
@@ -62,6 +88,7 @@ if __name__=="__main__":
     print(myobj.twosumbruteforce(input,target))
     print(myobj.twosumsorting(input, target))
     print(myobj.twoSumhashmap(input, target))
+    print(myobj.towsumhashmapoptimal(input, target))
 
 
 
