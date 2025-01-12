@@ -23,7 +23,7 @@
 from typing import List
 
 class Solution:
-    def concatenationofarray(self,myitem=List[int])->List[int]:
+    def concatenationofarray(self,myitem:List[int])->List[int]:
         newitem=[]
         n=len(myitem)
         for i in range(len(myitem)):
@@ -32,7 +32,7 @@ class Solution:
 
         return newitem
 
-    def concatenationofarray_solution2(self, myitem=List[int]) -> List[int]:
+    def concatenationofarray_solution2(self, myitem:List[int]) -> List[int]:
         #Two copies of array need to be copied into a single array
         newitem=[]
         for i in range(2):#If you want to append x times instead of 2 pass x
@@ -41,7 +41,7 @@ class Solution:
 
         return newitem
 
-    def concatenationofarray_solution3(self, myitem=List[int]) -> List[int]:
+    def concatenationofarray_solution3(self, myitem:List[int]) -> List[int]:
         return myitem*2
 
 
