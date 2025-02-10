@@ -44,3 +44,4 @@ if __name__=="__main__":
     obj=Solution()
     arr=[12,11,13,5,6,7]
     print(obj.merge_sort(arr))
+    
