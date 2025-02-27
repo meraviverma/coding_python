@@ -51,5 +51,6 @@ if __name__=="__main__":
     root.right.right=Node(7)
     root.left.left.left=Node(1)
 
+
     print(minValue(root))
 
