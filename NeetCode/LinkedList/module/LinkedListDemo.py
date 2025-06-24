@@ -19,4 +19,17 @@ class LinkedList:
         self.head=ListNode(-1)
         self.tail=self.head
     def insertEnd(self,val):
-        self.tail=val
+        self.tail.next=ListNode(val)
+        self.tail=self.tail.next
+    def print(self):
+        curr = self.head.next
+        while curr:
+            print(curr.val,"-->",end="")
+            curr=curr.next
+        print()
+if __name__=="__main__":
+    obj=LinkedList()
+    obj.insertEnd(5)
+    obj.insertEnd(10)
+    obj.print()
+
