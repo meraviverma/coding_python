@@ -10,31 +10,68 @@ tail=ListNode4
 """
 class ListNode:
     def __init__(self,val):
+        """
+                Initializes a node with the given value and sets the next pointer to None.
+
+                Args:
+                    val (int): The value stored in this node.
+        """
+
         self.val=val
         self.next=None
 
 class LinkedList:
     #At the beginning, both head and tail point to the same dummy node:
     def __init__(self):
-        self.head=ListNode(-1)
-        self.tail=self.head
+        """
+        Initializes a new singly linked list with a dummy head node.
+        This dummy node simplifies edge case handling, especially when
+        inserting or deleting at the head of the list.
+        """
+
+        self.head=ListNode(-1) # Dummy node for simplification
+        self.tail=self.head # Initially, tail is also the dummy node
+
     def insertEnd(self,val):
+        """
+        Appends a new node with the given value at the end of the list.
+
+        Args:
+            val (int): Value to insert into the list.
+        """
+
         self.tail.next=ListNode(val)
         self.tail=self.tail.next
 
     def remove(self,index):
+        """
+        Removes the node at the specified index (0-based).
+        If the index is invalid (too large), the function performs no operation.
+
+        Args:
+            index (int): The index of the node to remove.
+        """
+
         i=0
         curr=self.head
+        # Traverse to the node just before the one to be removed
+
         while i < index and curr:
             i+=1
             curr=curr.next
 
         #remove the node ahead of error
+        # Remove the node if it exists
         if curr and curr.next:
             if curr.next == self.tail:
-                self.tail = curr
+                self.tail = curr # Update tail if removing last node
             curr.next=curr.next.next
     def print(self):
+        """
+        Prints the list in a readable 'value -> value ->' format.
+        Skips the dummy head node and prints from the first actual element.
+        """
+
         curr = self.head.next
         while curr:
             print(curr.val,"-->",end="")
