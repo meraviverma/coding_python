@@ -21,6 +21,19 @@ class LinkedList:
     def insertEnd(self,val):
         self.tail.next=ListNode(val)
         self.tail=self.tail.next
+
+    def remove(self,index):
+        i=0
+        curr=self.head
+        while i < index and curr:
+            i+=1
+            curr=curr.next
+
+        #remove the node ahead of error
+        if curr and curr.next:
+            if curr.next == self.tail:
+                self.tail = curr
+            curr.next=curr.next.next
     def print(self):
         curr = self.head.next
         while curr:
@@ -31,5 +44,13 @@ if __name__=="__main__":
     obj=LinkedList()
     obj.insertEnd(5)
     obj.insertEnd(10)
+    obj.insertEnd(20)
+    obj.insertEnd(2)
+    obj.insertEnd(99)
     obj.print()
+    obj.remove(3)
+    obj.print()
+    # 5 -->10 -->20 -->2 -->99 -->
+    # 5 -->10 -->20 -->99 -->
+
 
