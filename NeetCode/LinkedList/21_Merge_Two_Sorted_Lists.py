@@ -52,5 +52,8 @@ if __name__=="__main__":
     obj2.insertEnd(1)
     obj2.insertEnd(3)
     obj2.insertEnd(4)
+    obj2.insertEnd(9)
     obj2.print()
+
+
 
