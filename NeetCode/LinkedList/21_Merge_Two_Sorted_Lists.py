@@ -19,6 +19,9 @@ Example 3:
 Input: list1 = [], list2 = [0]
 Output: [0]
 """
+from typing import Optional
+
+
 class ListNode:
     def __init__(self,val):
         self.val=val
@@ -40,6 +43,20 @@ class LinkList:
             # But with end="", you're overriding that behavior. In your line:
             curr=curr.next
         print()
+
+    def mergeTwoLists(self,list1:Optional[ListNode],list2:Optional[ListNode])-> Optional[ListNode]:
+        if list1 is None:
+            return list2
+        if list2 in None:
+            return list2
+        if list1.val <= list2.val:
+            list1.next=self.mergeTwoLists(list1.next,list2)
+            return list1
+        else:
+            list2.next=self.mergeTwoLists(list1,list2.next)
+            return list2
+
+
 if __name__=="__main__":
     obj=LinkList()
     obj.insertEnd(1)
@@ -54,6 +71,10 @@ if __name__=="__main__":
     obj2.insertEnd(4)
     obj2.insertEnd(9)
     obj2.print()
+
+    abc=LinkList()
+    mylist=abc.mergeTwoLists(obj,obj2)
+
 
 
 
