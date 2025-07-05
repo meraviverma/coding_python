@@ -13,3 +13,26 @@ Input: head = [1,2,3,4], index = 1
 Output: true
 
 """
+
+from module.LinkedListDemo import LinkedList
+from typing import  Optional
+class ListNode:
+    def __int__(self):
+        self.val=val
+        self.next=next
+class Solution:
+    def hasCycle(self,head:Optional[ListNode])->bool:
+        seen=set()
+        cur=head
+        while cur:
+            if cur in seen:
+                return True
+            seen.add(cur)
+            cur=cur.next
+        return False
+
+if __name__=="__main__":
+    obj=LinkedList()
+    for val in  [1,2,3,4]:
+        obj.insertEnd(val)
+    obj.print()
