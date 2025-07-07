@@ -48,3 +48,5 @@ if __name__=="__main__":
     newlinklist=obj.reverseLinkedList(mylinklist.head.next)
 
     obj.print_linked_list(newlinklist)
+
+    obj.print_linked_list(newlinklist)
