@@ -14,3 +14,4 @@ class ReverseString:
 if __name__ == '__main__':
         abc = ReverseString()
         print(abc.reverse("ravi"))
+        print(abc.reverse("sam"))
