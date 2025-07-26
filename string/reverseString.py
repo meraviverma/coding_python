@@ -15,3 +15,4 @@ if __name__ == '__main__':
         abc = ReverseString()
         print(abc.reverse("ravi"))
         print(abc.reverse("sam"))
+        print(abc.reverse("monu"))
