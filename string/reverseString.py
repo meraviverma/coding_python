@@ -16,3 +16,4 @@ if __name__ == '__main__':
         print(abc.reverse("ravi"))
         print(abc.reverse("sam"))
         print(abc.reverse("monu"))
+        print(abc.reverse("doluu"))
