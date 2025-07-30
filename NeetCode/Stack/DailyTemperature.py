@@ -18,6 +18,6 @@ class DailyTempe:
 
 if __name__=="__main__":
     abc=DailyTempe()
-    temperatures = [30, 38, 30, 36, 35, 40, 28]
+    temperatures = [30, 38, 30, 36, 35, 40, 58]
     print(f"Input: ",temperatures)
     print(abc.dailyTemperatures(temperatures))
