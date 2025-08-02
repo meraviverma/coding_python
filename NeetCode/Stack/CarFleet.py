@@ -89,3 +89,47 @@ if __name__=="__main__":
     speed = [3, 2]
     obj=CarFleet()
     print(obj.carFleet(target,position,speed))
+
+"""
+##Understanding Probelm statement
+
+No problem, Ravi! Let's break down the example step by step so it's crystal clear. Here's the input again:
+
+```python
+target = 10
+position = [1, 4]
+speed = [3, 2]
+```
+
+### 🚗 Car Details
+
+| Car | Position | Speed | Time to Reach Target |
+|-----|----------|-------|----------------------|
+| A   | 1        | 3     | (10 - 1) / 3 = 3.0 hrs |
+| B   | 4        | 2     | (10 - 4) / 2 = 3.0 hrs |
+
+### 🧠 What Happens?
+
+- **Car A** starts behind **Car B** but is faster.
+- Both cars take **exactly 3 hours** to reach the destination.
+- Since Car A catches up to Car B **at the destination**, they are considered part of the **same fleet**.
+
+### ⛔ No Overtaking Allowed
+
+Even though Car A is faster, it can't pass Car B. Instead, it catches up and drives at the same speed once it 
+reaches Car B (if it catches up before the destination). But in this case, they arrive **together**, so they form **one fleet**.
+
+### ✅ Final Answer
+
+```python
+Output: 1
+```
+
+Only **one fleet** reaches the destination.
+
+---
+
+Would you like to see a visual timeline or a simulation-style breakdown of how they move over time?
+
+
+"""
