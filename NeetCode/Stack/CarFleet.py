@@ -87,8 +87,13 @@ if __name__=="__main__":
     target = 10
     position = [1, 4]
     speed = [3, 2]
+    position2 = [4, 1, 0, 7]
+    speed2 = [2, 2, 1, 1]
     obj=CarFleet()
     print(obj.carFleet(target,position,speed))
+
+    print(obj.carFleet(target,position2,speed2))
+
 
 """
 ##Understanding Probelm statement
