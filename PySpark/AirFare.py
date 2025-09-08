@@ -19,5 +19,6 @@ spark.sparkContext.setLogLevel("ERROR")
 
 delta_read_df = spark.read.format("delta").load("D:\\pythonProject\PySpark\\new-delta-table\\airfare")
 delta_read_df.show()
+delta_read_df.printSchema()
 
 
