@@ -1,0 +1,583 @@
+<Results>
+	<transactionDetail>
+		<transactionID>c32ddaf2-610e-4c92-80cf-9f4a03c98aa42159146</transactionID>
+		<transactionTimestamp>2025-10-24T17:48:18.692Z</transactionTimestamp>
+		<inLanguage>en-US</inLanguage>
+		<serviceVersion>1</serviceVersion>
+	</transactionDetail>
+	<inquiryDetail>
+		<inLanguage>auto</inLanguage>
+		<name>CLEARPACK AUTOMATION PVT LTD</name>
+		<address>
+			<countryISOAlpha2Code>IN</countryISOAlpha2Code>
+			<addressLocality>GREATER NOIDA</addressLocality>
+			<postalCode>201308</postalCode>
+			<streetAddressLine>
+				<line1>PLOT NO 9, 10, 11 ECOTECH -I EXTN</line1>
+				<line2>DIST-GAUTAM BUDH NAGAR</line2>
+			</streetAddressLine>
+		</address>
+		<telephoneNumber>919915242419</telephoneNumber>
+		<confidenceLowerLevelThresholdValue>8</confidenceLowerLevelThresholdValue>
+		<productID>cmpelk</productID>
+		<productVersion>v2</productVersion>
+	</inquiryDetail>
+	<candidatesMatchedQuantity>1</candidatesMatchedQuantity>
+	<matchDataCriteria>Name and Address Lookup</matchDataCriteria>
+	<matchCandidates>
+		<displaySequence>1</displaySequence>
+		<organization>
+			<duns>871893837</duns>
+			<dunsControlStatus>
+				<operatingStatus>
+					<description>Active</description>
+					<dnbCode>9074</dnbCode>
+				</operatingStatus>
+				<isMailUndeliverable>false</isMailUndeliverable>
+			</dunsControlStatus>
+			<primaryName>CLEARPACK AUTOMATION PRIVATE LIMITED</primaryName>
+			<telephone>
+				<telephoneNumber>8826790181</telephoneNumber>
+				<isUnreachable>false</isUnreachable>
+			</telephone>
+			<primaryAddress>
+				<addressCountry>
+					<isoAlpha2Code>IN</isoAlpha2Code>
+					<name>India</name>
+				</addressCountry>
+				<addressLocality>
+					<name>Noida</name>
+				</addressLocality>
+				<addressRegion/>
+				<postalCode>201308</postalCode>
+				<postalCodeExtension/>
+				<streetAddress>
+					<line1>Plot No. 9, 10 &amp; 11, Ecotech Extension-1, Surajpur, Kasna Road, Gautam Budh Nagar,</line1>
+					<line2/>
+				</streetAddress>
+			</primaryAddress>
+			<mailingAddress>
+				<addressCountry>
+					<isoAlpha2Code>IN</isoAlpha2Code>
+					<name>India</name>
+				</addressCountry>
+				<addressLocality/>
+				<addressRegion/>
+				<postalCode/>
+				<postalCodeExtension/>
+				<streetAddress/>
+			</mailingAddress>
+			<mostSeniorPrincipals>
+				<fullName>PRABHAT  RAJVANSHI</fullName>
+			</mostSeniorPrincipals>
+			<isStandalone>false</isStandalone>
+			<corporateLinkage>
+				<familytreeRolesPlayed>
+					<description>Parent/Headquarters</description>
+					<dnbCode>9141</dnbCode>
+				</familytreeRolesPlayed>
+			</corporateLinkage>
+		</organization>
+		<matchQualityInformation>
+			<confidenceCode>8</confidenceCode>
+			<matchGrade>AAFAZZF</matchGrade>
+			<matchGradeComponentsCount>7</matchGradeComponentsCount>
+			<matchGradeComponents>
+				<componentType>Name</componentType>
+				<componentRating>A</componentRating>
+			</matchGradeComponents>
+			<matchGradeComponents>
+				<componentType>Street Number</componentType>
+				<componentRating>A</componentRating>
+			</matchGradeComponents>
+			<matchGradeComponents>
+				<componentType>Street Name</componentType>
+				<componentRating>F</componentRating>
+			</matchGradeComponents>
+			<matchGradeComponents>
+				<componentType>City</componentType>
+				<componentRating>A</componentRating>
+			</matchGradeComponents>
+			<matchGradeComponents>
+				<componentType>State</componentType>
+				<componentRating>Z</componentRating>
+			</matchGradeComponents>
+			<matchGradeComponents>
+				<componentType>PO Box</componentType>
+				<componentRating>Z</componentRating>
+			</matchGradeComponents>
+			<matchGradeComponents>
+				<componentType>Phone</componentType>
+				<componentRating>F</componentRating>
+			</matchGradeComponents>
+			<matchDataProfile>00000000989800</matchDataProfile>
+			<matchDataProfileComponentsCount>7</matchDataProfileComponentsCount>
+			<matchDataProfileComponents>
+				<componentType>Name</componentType>
+				<componentValue>00</componentValue>
+			</matchDataProfileComponents>
+			<matchDataProfileComponents>
+				<componentType>Street Number</componentType>
+				<componentValue>00</componentValue>
+			</matchDataProfileComponents>
+			<matchDataProfileComponents>
+				<componentType>Street Name</componentType>
+				<componentValue>00</componentValue>
+			</matchDataProfileComponents>
+			<matchDataProfileComponents>
+				<componentType>City</componentType>
+				<componentValue>00</componentValue>
+			</matchDataProfileComponents>
+			<matchDataProfileComponents>
+				<componentType>State</componentType>
+				<componentValue>98</componentValue>
+			</matchDataProfileComponents>
+			<matchDataProfileComponents>
+				<componentType>PO Box</componentType>
+				<componentValue>98</componentValue>
+			</matchDataProfileComponents>
+			<matchDataProfileComponents>
+				<componentType>Phone</componentType>
+				<componentValue>00</componentValue>
+			</matchDataProfileComponents>
+			<nameMatchScore>100</nameMatchScore>
+		</matchQualityInformation>
+	</matchCandidates>
+	<cleanseAndStandardizeInformation/>
+	<embeddedProduct>
+		<productVersion>2</productVersion>
+		<productID>cmpelk</productID>
+		<organization>
+			<businessEntityType>
+				<description>Corporation</description>
+				<dnbCode>451</dnbCode>
+			</businessEntityType>
+			<duns>871893837</duns>
+			<controlOwnershipType/>
+			<primaryAddress>
+				<language>
+					<description>English</description>
+					<dnbCode>39</dnbCode>
+				</language>
+				<addressCountry>
+					<name>India</name>
+					<isoAlpha2Code>IN</isoAlpha2Code>
+					<fipsCode>IN</fipsCode>
+				</addressCountry>
+				<continentalRegion>
+					<name>Asia Pacific</name>
+				</continentalRegion>
+				<addressLocality>
+					<name>Noida</name>
+				</addressLocality>
+				<minorTownName/>
+				<addressRegion>
+					<name>Uttar Pradesh</name>
+					<abbreviatedName>UP</abbreviatedName>
+					<fipsCode/>
+				</addressRegion>
+				<addressCounty/>
+				<postalCode>201308</postalCode>
+				<postalCodePosition>
+					<description>Post Code presented after Town/City name</description>
+					<dnbCode>1011</dnbCode>
+				</postalCodePosition>
+				<streetNumber/>
+				<streetName/>
+				<streetAddress>
+					<line1>Plot No. 9, 10 &amp; 11, Ecotech Extension-1, Surajpur,</line1>
+					<line2>Kasna Road, Gautam Budh Nagar,</line2>
+				</streetAddress>
+				<postOfficeBox/>
+				<latitude>28.48337</latitude>
+				<longitude>77.49726</longitude>
+				<geographicalPrecision>
+					<description>Street Address Centroid</description>
+					<dnbCode>30257</dnbCode>
+				</geographicalPrecision>
+				<isRegisteredAddress>false</isRegisteredAddress>
+				<isResidentialAddress/>
+				<statisticalArea/>
+				<locationOwnership>
+					<description>Occupies</description>
+					<dnbCode>3921</dnbCode>
+				</locationOwnership>
+				<premisesArea/>
+				<isManufacturingLocation/>
+			</primaryAddress>
+			<primaryName>CLEARPACK AUTOMATION PRIVATE LIMITED</primaryName>
+			<dnbAssessment/>
+			<registrationNumbers>
+				<registrationNumber>UDYAM-UP-28-0002156</registrationNumber>
+				<typeDescription>MSME UDYAM Registration Number (IN)</typeDescription>
+				<typeDnBCode>37551</typeDnBCode>
+				<registrationNumberClass>
+					<description>National Business Registration Number</description>
+					<dnbCode>2888</dnbCode>
+				</registrationNumberClass>
+				<isPreferredRegistrationNumber/>
+				<registrationLocation/>
+			</registrationNumbers>
+			<registrationNumbers>
+				<registrationNumber>U74110DL2007PTC170599</registrationNumber>
+				<typeDescription>Company Incorporation Number (IN)</typeDescription>
+				<typeDnBCode>1362</typeDnBCode>
+				<registrationNumberClass>
+					<description>National Business Registration Number</description>
+					<dnbCode>2888</dnbCode>
+				</registrationNumberClass>
+				<isPreferredRegistrationNumber/>
+				<registrationLocation/>
+			</registrationNumbers>
+			<registrationNumbers>
+				<registrationNumber>09AADCK5741J1ZA</registrationNumber>
+				<typeDescription>GST (Goods &amp; Services Tax) ID</typeDescription>
+				<typeDnBCode>32167</typeDnBCode>
+				<registrationNumberClass>
+					<description>Fiscal / Tax Registration Number</description>
+					<dnbCode>2929</dnbCode>
+				</registrationNumberClass>
+				<isPreferredRegistrationNumber>true</isPreferredRegistrationNumber>
+				<registrationLocation/>
+			</registrationNumbers>
+			<registrationNumbers>
+				<registrationNumber>AADCK5741J</registrationNumber>
+				<typeDescription>Tax Identification Number (IN)</typeDescription>
+				<typeDnBCode>12897</typeDnBCode>
+				<registrationNumberClass>
+					<description>Fiscal / Tax Registration Number</description>
+					<dnbCode>2929</dnbCode>
+				</registrationNumberClass>
+				<isPreferredRegistrationNumber/>
+				<registrationLocation/>
+			</registrationNumbers>
+			<socioEconomicInformation/>
+			<startDate>2007-11-20</startDate>
+			<controlOwnershipDate>2007-11-20</controlOwnershipDate>
+			<isStandalone>false</isStandalone>
+			<telephone>
+				<telephoneNumber>8826790181</telephoneNumber>
+				<isdCode>91</isdCode>
+				<isUnreachable>false</isUnreachable>
+			</telephone>
+			<dunsControlStatus>
+				<operatingStatus>
+					<description>Active</description>
+					<dnbCode>9074</dnbCode>
+				</operatingStatus>
+				<isMarketable>true</isMarketable>
+				<isMailUndeliverable>false</isMailUndeliverable>
+				<isTelephoneDisconnected>false</isTelephoneDisconnected>
+				<isDelisted>false</isDelisted>
+				<fullReportDate>2025-06-28</fullReportDate>
+			</dunsControlStatus>
+			<corporateLinkage>
+				<familytreeRolesPlayed>
+					<description>Subsidiary</description>
+					<dnbCode>9159</dnbCode>
+				</familytreeRolesPlayed>
+				<familytreeRolesPlayed>
+					<description>Domestic Ultimate</description>
+					<dnbCode>12774</dnbCode>
+				</familytreeRolesPlayed>
+				<familytreeRolesPlayed>
+					<description>Parent/Headquarters</description>
+					<dnbCode>9141</dnbCode>
+				</familytreeRolesPlayed>
+				<hierarchyLevel>3</hierarchyLevel>
+				<globalUltimateFamilyTreeMembersCount>40</globalUltimateFamilyTreeMembersCount>
+				<globalUltimate>
+					<duns>865411243</duns>
+					<primaryName>CLEARPACK GROUP LIMITED</primaryName>
+					<primaryAddress>
+						<addressCountry>
+							<name>British Virgin Islands</name>
+							<isoAlpha2Code>VG</isoAlpha2Code>
+							<fipsCode>VI</fipsCode>
+						</addressCountry>
+						<continentalRegion>
+							<name>Latin America</name>
+						</continentalRegion>
+						<addressLocality>
+							<name>ROAD TOWN</name>
+						</addressLocality>
+						<addressRegion>
+							<name>TORTOLA</name>
+							<abbreviatedName/>
+						</addressRegion>
+						<addressCounty/>
+						<postalCode/>
+						<streetAddress>
+							<line1>C/O Vistra (BVI) Limited</line1>
+							<line2>Vistra Corporate Services Centre</line2>
+						</streetAddress>
+					</primaryAddress>
+				</globalUltimate>
+				<domesticUltimate>
+					<duns>871893837</duns>
+					<primaryName>CLEARPACK AUTOMATION PRIVATE LIMITED</primaryName>
+					<primaryAddress>
+						<addressCountry>
+							<name>India</name>
+							<isoAlpha2Code>IN</isoAlpha2Code>
+							<fipsCode>IN</fipsCode>
+						</addressCountry>
+						<continentalRegion>
+							<name>Asia Pacific</name>
+						</continentalRegion>
+						<addressLocality>
+							<name>Noida</name>
+						</addressLocality>
+						<addressRegion>
+							<name>Uttar Pradesh</name>
+							<abbreviatedName>UP</abbreviatedName>
+						</addressRegion>
+						<addressCounty/>
+						<postalCode>201308</postalCode>
+						<streetAddress>
+							<line1>Plot No. 9, 10 &amp; 11, Ecotech Extension-1, Surajpur,</line1>
+							<line2>Kasna Road, Gautam Budh Nagar,</line2>
+						</streetAddress>
+					</primaryAddress>
+				</domesticUltimate>
+				<parent>
+					<duns>595892852</duns>
+					<primaryName>CLEARPACK HOLDINGS PTE LTD</primaryName>
+					<primaryAddress>
+						<addressCountry>
+							<name>Singapore</name>
+							<isoAlpha2Code>SG</isoAlpha2Code>
+							<fipsCode>SN</fipsCode>
+						</addressCountry>
+						<continentalRegion>
+							<name>Asia Pacific</name>
+						</continentalRegion>
+						<addressLocality>
+							<name>Singapore</name>
+						</addressLocality>
+						<addressRegion/>
+						<addressCounty/>
+						<postalCode>408730</postalCode>
+						<streetAddress>
+							<line1>67 Ubi Road 1</line1>
+							<line2>#10-06 Oxley Biz Hub</line2>
+						</streetAddress>
+					</primaryAddress>
+				</parent>
+				<headQuarter/>
+			</corporateLinkage>
+			<financials>
+				<financialStatementToDate>2024-03-31</financialStatementToDate>
+				<financialStatementDuration/>
+				<informationScopeDescription>Individual</informationScopeDescription>
+				<informationScopeDnBCode>9066</informationScopeDnBCode>
+				<reliabilityDescription>Actual</reliabilityDescription>
+				<reliabilityDnBCode>9092</reliabilityDnBCode>
+				<unitCode>SingleUnits</unitCode>
+				<accountantName/>
+				<yearlyRevenue>
+					<value>2102136000</value>
+					<currency>INR</currency>
+				</yearlyRevenue>
+				<yearlyRevenue>
+					<value>25358067</value>
+					<currency>USD</currency>
+				</yearlyRevenue>
+			</financials>
+			<isAgent/>
+			<isImporter>true</isImporter>
+			<isExporter>true</isExporter>
+			<numberOfEmployees>
+				<value>314</value>
+				<informationScopeDescription>Consolidated</informationScopeDescription>
+				<informationScopeDnBCode>9067</informationScopeDnBCode>
+				<reliabilityDescription>Actual</reliabilityDescription>
+				<reliabilityDnBCode>9092</reliabilityDnBCode>
+			</numberOfEmployees>
+			<mostSeniorPrincipals>
+				<givenName>Prabhat</givenName>
+				<familyName>Rajvanshi</familyName>
+				<fullName>Prabhat Rajvanshi</fullName>
+				<namePrefix>Mister</namePrefix>
+				<nameSuffix/>
+				<gender>Male</gender>
+				<jobTitles>
+					<title>Director</title>
+				</jobTitles>
+				<managementResponsibilities>
+					<description>Director</description>
+					<mrcCode>Z699</mrcCode>
+				</managementResponsibilities>
+			</mostSeniorPrincipals>
+			<currentPrincipals>
+				<givenName>Vishnuprasad</givenName>
+				<familyName>Puranik</familyName>
+				<fullName>Vishnuprasad M Puranik</fullName>
+				<namePrefix>Mister</namePrefix>
+				<nameSuffix/>
+				<gender>Male</gender>
+				<jobTitles>
+					<title>Director</title>
+				</jobTitles>
+				<managementResponsibilities>
+					<description>Director</description>
+					<mrcCode>Z699</mrcCode>
+				</managementResponsibilities>
+			</currentPrincipals>
+			<currentPrincipals>
+				<givenName>Ashesh</givenName>
+				<familyName>Jamaiyar</familyName>
+				<fullName>Ashesh Jamaiyar</fullName>
+				<namePrefix>Mister</namePrefix>
+				<nameSuffix/>
+				<gender>Male</gender>
+				<jobTitles>
+					<title>Director</title>
+				</jobTitles>
+				<managementResponsibilities>
+					<description>Director</description>
+					<mrcCode>Z699</mrcCode>
+				</managementResponsibilities>
+			</currentPrincipals>
+			<currentPrincipals>
+				<givenName>Tulika</givenName>
+				<familyName>Gaharwar</familyName>
+				<fullName>Tulika Gaharwar</fullName>
+				<namePrefix>Miss</namePrefix>
+				<nameSuffix/>
+				<gender>Female</gender>
+				<jobTitles>
+					<title>Company Secretary</title>
+				</jobTitles>
+				<managementResponsibilities>
+					<description>Secretary</description>
+					<mrcCode>A1B2</mrcCode>
+				</managementResponsibilities>
+			</currentPrincipals>
+			<tradeStyleNames>
+				<name>CLEARPACK</name>
+				<priority>1</priority>
+			</tradeStyleNames>
+			<mailingAddress/>
+			<websiteAddress>
+				<url>www.clearpack.com</url>
+				<domainName>clearpack.com</domainName>
+			</websiteAddress>
+			<registeredAddress>
+				<language>
+					<description>English</description>
+					<dnbCode>39</dnbCode>
+				</language>
+				<addressCountry>
+					<name>India</name>
+					<isoAlpha2Code>IN</isoAlpha2Code>
+				</addressCountry>
+				<addressLocality>
+					<name>New Delhi</name>
+				</addressLocality>
+				<minorTownName/>
+				<addressRegion>
+					<name>Delhi</name>
+					<abbreviatedName>DL</abbreviatedName>
+				</addressRegion>
+				<addressCounty/>
+				<postalCode>110005</postalCode>
+				<postalCodePosition/>
+				<streetNumber/>
+				<streetName/>
+				<streetAddress>
+					<line1>2092, First Floor, Shop No. 03, Gali No. 37-38</line1>
+					<line2>Naiwala, Karol Bagh Central</line2>
+					<line3/>
+					<line4/>
+				</streetAddress>
+				<postOfficeBox/>
+			</registeredAddress>
+			<industryCodes>
+				<code>326150</code>
+				<description>Urethane and Other Foam Product (except Polystyrene) Manufacturing</description>
+				<typeDescription>North American Industry Classification System 2022</typeDescription>
+				<typeDnBCode>37788</typeDnBCode>
+				<priority>2</priority>
+			</industryCodes>
+			<industryCodes>
+				<code>35370210</code>
+				<description>Lift trucks, industrial: fork, platform, straddle, etc.</description>
+				<typeDescription>D&amp;B Standard Industry Code</typeDescription>
+				<typeDnBCode>3599</typeDnBCode>
+				<priority>3</priority>
+			</industryCodes>
+			<industryCodes>
+				<code>333993</code>
+				<description>Packaging Machinery Manufacturing</description>
+				<typeDescription>North American Industry Classification System 2022</typeDescription>
+				<typeDnBCode>37788</typeDnBCode>
+				<priority>1</priority>
+			</industryCodes>
+			<industryCodes>
+				<code>3086</code>
+				<description>Mfg plastic foam products</description>
+				<typeDescription>US Standard Industry Code 1987 - 4 digit</typeDescription>
+				<typeDnBCode>399</typeDnBCode>
+				<priority>2</priority>
+			</industryCodes>
+			<industryCodes>
+				<code>30869905</code>
+				<description>Packaging and shipping materials, foamed plastics</description>
+				<typeDescription>D&amp;B Standard Industry Code</typeDescription>
+				<typeDnBCode>3599</typeDnBCode>
+				<priority>2</priority>
+			</industryCodes>
+			<industryCodes>
+				<code>94</code>
+				<description>Machinery and Equipment Manufacturing</description>
+				<typeDescription>D&amp;B Hoovers Industry Classification</typeDescription>
+				<typeDnBCode>35912</typeDnBCode>
+				<priority>1</priority>
+			</industryCodes>
+			<industryCodes>
+				<code>3565</code>
+				<description>Mfg packaging machinery</description>
+				<typeDescription>US Standard Industry Code 1987 - 4 digit</typeDescription>
+				<typeDnBCode>399</typeDnBCode>
+				<priority>1</priority>
+			</industryCodes>
+			<industryCodes>
+				<code>35650000</code>
+				<description>Packaging machinery</description>
+				<typeDescription>D&amp;B Standard Industry Code</typeDescription>
+				<typeDnBCode>3599</typeDnBCode>
+				<priority>1</priority>
+			</industryCodes>
+			<industryCodes>
+				<code>333924</code>
+				<description>Industrial Truck, Tractor, Trailer, and Stacker Machinery Manufacturing</description>
+				<typeDescription>North American Industry Classification System 2022</typeDescription>
+				<typeDnBCode>37788</typeDnBCode>
+				<priority>3</priority>
+			</industryCodes>
+			<industryCodes>
+				<code>D</code>
+				<description>Manufacturing</description>
+				<typeDescription>D&amp;B Standard Major Industry Code</typeDescription>
+				<typeDnBCode>24657</typeDnBCode>
+				<priority>1</priority>
+			</industryCodes>
+			<industryCodes>
+				<code>2829</code>
+				<description>Manufacture of other general-purpose machinery n.e.c.</description>
+				<typeDescription>NACE Revision 2</typeDescription>
+				<typeDnBCode>29104</typeDnBCode>
+				<priority>1</priority>
+			</industryCodes>
+			<industryCodes>
+				<code>3537</code>
+				<description>Mfg industrial trucks/tractors</description>
+				<typeDescription>US Standard Industry Code 1987 - 4 digit</typeDescription>
+				<typeDnBCode>399</typeDnBCode>
+				<priority>3</priority>
+			</industryCodes>
+		</organization>
+		<inLanguage>en-US</inLanguage>
+	</embeddedProduct>
+</Results>
