@@ -15,3 +15,59 @@
 #
 # Output: [null,null,null,null,0,null,2,1]
 
+class minstack:
+    def __init__(self):
+        self.min=float('inf')
+        self.stack=[]
+    def push(self,val)->None:
+        if not self.stack:
+            self.stack.append(0)
+            self.min=val
+        else:
+            self.stack.append(val - self.min)
+            if val < self.min:
+                self.min=val
+    def pop(self)-> None:
+        if not self.stack:
+            return
+        pop =self.stack.pop()
+
+        if pop < 0:
+            self.min =self.min - pop
+
+    def top(self)-> int:
+        top=self.stack[-1]
+        if top > 0:
+            return top + self.min
+        else:
+            return self.min
+    def getMin(self)->int:
+        return self.min
+
+if __name__=="__main__":
+    obj=minstack()
+    commands= ["MinStack", "push", 1, "push", 2, "push", 0, "getMin", "pop", "top", "getMin"]
+    output=[]
+
+    obj = None
+    i = 0
+    while i < len(commands):
+        cmd = commands[i]
+        if cmd == "MinStack":
+            obj = minstack()
+            output.append(None)
+        elif cmd == "push":
+            val = commands[i + 1]
+            obj.push(val)
+            output.append(None)
+            i += 1  # skip the value
+        elif cmd == "pop":
+            obj.pop()
+            output.append(None)
+        elif cmd == "top":
+            output.append(obj.top())
+        elif cmd == "getMin":
+            output.append(obj.getMin())
+        i += 1
+
+    print("Output:", output)
