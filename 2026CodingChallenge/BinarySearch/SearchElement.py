@@ -34,11 +34,11 @@ def BinarySearchRecursive(arr,low,high,target):
         return mid
     elif (arr[mid] > target):
         high=mid - 1
-        BinarySearchRecursive(arr,low,high,target)
+        return BinarySearchRecursive(arr,low,high,target)
     elif (arr[mid] < target):
         low=mid + 1
-        BinarySearchRecursive(arr,low,high,target)
-    
+        return BinarySearchRecursive(arr,low,high,target)
+
 if __name__ == "__main__":
     arr=[4,6,7,8,9]
     element=8
