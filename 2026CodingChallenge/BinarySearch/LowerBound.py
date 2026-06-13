@@ -23,22 +23,53 @@ from typing import List
 
 class Solution:
     def lower_bound(self,arr:List[int],target):
+        """
+        :param arr: List[int]
+        :param target: int
+        :return: int
+        """
+        low=0
+        high=len(arr) - 1
+        ans=len(arr)
+        
+        while low <= high: # low and high are the pointers which are used to traverse the array. low is initialized to 0 and high is initialized to n-1.
+            mid = (low + high)//2 # mid is the index which is used to check the value at that index. mid is calculated as the average of low and high.
+            if (arr[mid] >= target): # if the value at mid index is greater than or equal to target, then we have found a potential answer. We update the answer and move the high pointer to mid-1 to check if there is a smaller index which satisfies the condition.
+                ans=mid # update the answer to mid index
+                high=mid - 1 # move the high pointer to mid-1 to check if there is a smaller index which satisfies the condition.
+            else:
+                low = mid + 1 # move the low pointer to mid+1 to check if there is a larger index which satisfies the condition.
+        return ans
+
+# Implement Upper Bound
+
+
+# 7
+
+# Problem Statement: Given a sorted array of N integers and an integer x, write a program to find the upper bound of x.
+
+# What is Upper Bound?
+# The upper bound algorithm finds the first or the smallest index in a sorted array where the value at that index is greater than the given key i.e. x.
+
+# The upper bound is the smallest index, ind, where arr[ind] > x.
+
+    def upper_bound(self,arr:List[int],target):
         low=0
         high=len(arr) - 1
         ans=len(arr)
         
         while low <= high:
             mid = (low + high)//2
-            if (arr[mid] >= target):
+            if (arr[mid] > target):
                 ans=mid
                 high=mid - 1
             else:
                 low = mid + 1
-        return ans
-       
+        return ans   
 
 if __name__=="__main__":
     obj=Solution()
-    arr=[3,6,8,9,21,43]
+    arr=[3,5,8,9,15,19]
     target=9
     print(obj.lower_bound(arr,target))
+    print(obj.upper_bound(arr,target))
