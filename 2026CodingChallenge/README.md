@@ -9,3 +9,9 @@
 - Level: Easy
 - Time Compplexity : O(logN)
 - Space Complexity: O(1) no extra space being used
+
+### Day 3 Search Element
+- You are given a sorted array arr of distinct values and a target value x. You need to search for the index of the target value in the array.
+- Level : Easy
+- Time Compplexity : O(logN)
+- Space Complexity: O(1) no extra space being used
